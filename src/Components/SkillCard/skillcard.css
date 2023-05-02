@@ -1,0 +1,35 @@
+.skillContainerCard{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 50px 10px;
+    width: 32%;
+    border-radius: 20px;
+}
+.skill-heading{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.partition{
+    width: 40%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.skill-name{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 5px 0;
+}
+.skill-name p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.skills-logo{
+    width: 30px;
+}

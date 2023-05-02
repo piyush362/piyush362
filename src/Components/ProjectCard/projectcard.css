@@ -1,0 +1,33 @@
+.projectcard{
+    width: 32%;
+    height: 300px;
+    background-color: white;
+    color: #000;
+    margin: 20px 0;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+.projectcard > img{
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 8px;  
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.projectcard > img:hover{
+    width: 98%;
+    margin-top: 3px;
+}
+.projectBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.projectBtn > p{
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
